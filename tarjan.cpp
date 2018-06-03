@@ -1,8 +1,3 @@
-/* Grupo 11
-   86388 - Artur Fortunato
-   86482 - Miguel Rocha
-*/
-
 // Libraries that were used
 #include <iostream>
 #include <stdio.h>
@@ -159,7 +154,7 @@ int main() {
 		n_con += scc_table[i].size();
 	}
 	free(minNodes);
-    pair<int,int> *pares;
+    	pair<int,int> *pares;
 	for(i = 0; i < n_scc; i++) {
 		pares->first = getMinNode(i);
 		pares->second = i;
